@@ -1,0 +1,10 @@
+.intro__fact {
+  font-weight: 700;
+}
+/*
+@media screen and (max-width: 768px) {
+  .intro__fact {
+    font-size: 0.75em;
+    line-height: 1.5833em;
+  }
+} */

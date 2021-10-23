@@ -1,0 +1,8 @@
+@import "./__logo/header__logo.css";
+@import "./__lang/header__lang.css";
+@import "./__lang-item/header__lang-item.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}

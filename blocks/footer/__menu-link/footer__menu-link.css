@@ -1,0 +1,25 @@
+.footer__menu-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.footer__menu-link:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__menu-link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .footer__menu-link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,15 @@
+@import "./website__title/website__title.css";
+@import "./website__link/website__link.css";
+
+.website {
+  display: grid;
+  grid-template-columns: max-content;
+  color: #aaa;
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .website {
+    display: none;
+  }
+} */
