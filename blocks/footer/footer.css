@@ -1,7 +1,3 @@
-@import "./__menu/footer__menu.css";
-@import "./__menu-link/footer__menu-link.css";
-@import "./__copyright/footer__copyright.css";
-
 .footer {
   display: grid;
   grid-template-columns: repeat(2, auto);

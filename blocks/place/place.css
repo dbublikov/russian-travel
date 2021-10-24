@@ -1,9 +1,3 @@
-@import "./__heading/place__heading.css";
-@import "./__img/place__img.css";
-@import ".//place__description.css";
-@import "./__paragraph/place__paragraph.css";
-@import "./__website/place__website.css";
-
 .place {
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, 1fr));

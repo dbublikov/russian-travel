@@ -4,12 +4,18 @@
 
 @media screen and (max-width: 1024px) {
   .main__intro {
-    margin: 88px auto 0;
+    margin: 92px auto 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .main__intro {
-    margin: 64px auto 0;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__intro {
+    margin-top: 64px;
   }
 }
