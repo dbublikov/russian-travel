@@ -3,14 +3,20 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .main__places {
-    margin-top: 88px;
+    margin: 92px 48px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .main__places {
-    margin-top: 64px;
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main__places {
+    margin: 64px 0 0;
   }
 }

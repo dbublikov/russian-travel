@@ -3,6 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  max-width: 1184px;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -32,6 +33,7 @@
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     min-height: 640px;
+    width: 100%;
   }
 }
 

@@ -1,24 +1,24 @@
 .page {
   margin: 0 auto; /* для экранов больше 1280px отцентрировали весь контент */
-  max-width: 1184px;
-  min-width: 288px;
+  max-width: 1280px;
+  min-width: 320px;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .page {
-    margin: 0 48px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    margin: 0 24px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    margin: 0 16px;
+    max-width: 320px;
   }
 }

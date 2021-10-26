@@ -1,17 +1,16 @@
 .page__footer {
-  /* width: 100%; */
-  margin: 92px auto 0;
+  margin: 92px 48px 0;
   padding-bottom: 24px;
-}
-
-@media screen and (max-width: 1024px) {
-  .page__footer {
-    margin-top: 88px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .page__footer {
-    margin-top: 64px;
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__footer {
+    margin: 64px 16px 0;
   }
 }

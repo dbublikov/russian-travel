@@ -1,0 +1,10 @@
+.header__link {
+  display: inline-block;
+  height: 52px;
+}
+
+@media screen and (max-width: 425px) {
+  .header__link {
+    height: 42px;
+  }
+}
